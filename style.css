@@ -1,0 +1,135 @@
+/* GENERAL STYLING */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #f4f7fa;
+    color: #333;
+}
+
+/* HOME SECTION */
+header{
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #6fb1fc, #4364f7);
+    color: white;
+}
+
+.profile-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid white;
+}
+
+.tagline{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* SECTION STYLE */
+.section{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section h2{
+    margin-bottom: 20px;
+    color: #2b4eff;
+}
+
+/* ABOUT SECTION */
+#about p{
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* SKILLS */
+.skills-box{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skills-box span{
+    background: #2b4eff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+/* PROJECTS */
+.project-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.project-card h3{
+    color: #2b4eff;
+    margin-bottom: 10px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 10px 18px;
+    border: none;
+    background: #2b4eff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #163bd3;
+}
+
+/* CONTACT FORM */
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+    gap: 12px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+}
+
+.contact-form textarea{
+    height: 120px;
+}
+
+/* FOOTER */
+footer{
+    background: #2b4eff;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
